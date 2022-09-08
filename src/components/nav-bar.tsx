@@ -11,9 +11,9 @@ const NavBar = () => {
         </Heading>
         <Spacer />
         <HStack color="white" fontSize="2xs" fontWeight="semibold">
-          <Text>HOME</Text>
+          <Link href="/landing" passHref><Text>HOME</Text></Link>
           <Text>/</Text>
-          <Text>VOTING</Text>
+          <Link href="/voting" passHref><Text>VOTING</Text></Link>
           {/* <Text>/</Text>
           <Text>PAST VICTORS</Text> */}
         </HStack>
